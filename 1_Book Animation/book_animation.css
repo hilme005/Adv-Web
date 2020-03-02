@@ -1,0 +1,112 @@
+
+@font-face {}
+
+body {
+	background-color: black;
+}
+
+.container {
+	width: 5.39in;
+	height: 7in;
+	background-image: linear-gradient(to right, #008fcc, #008fcc, #33b4ab, #008fcc, #008fcc, #8f52cc, #008fcc, #008fcc, #2952cc, #008fcc, #008fcc);
+	position: absolute;
+  	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden
+	
+}
+
+.author {
+	font-family: houschka-rounded, sans-serif;
+	font-weight: 300;		
+	font-style: normal;
+	color: white;
+	left: 185px;
+	top: -10px;
+	position: absolute
+}
+
+.title {
+	font-family: liebeerika, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	color: gold;
+	position: relative;
+	text-shadow: 1px 1px black;
+	font-size: 40pt;
+	left: 150px;
+	top: 500px;
+}
+
+.fish {
+	width: 50%;
+	position: absolute;
+	left: 70px;
+	top: 32px;
+	
+}
+
+.scales {
+	width: 50%;
+	position: absolute;
+	left: 70px;
+	top: 32px;
+	animation: blink 5s infinite linear;
+	animation-delay: 1s;
+}
+
+@keyframes blink {
+    0%, 100% {filter: brightness(50%);}
+  50% {filter: brightness(200%);}
+}
+
+.bubbles {
+	position: absolute;
+	left: 400px;
+	top: 200px;
+	opacity: 60%;
+	animation: float 4s infinite linear;
+	animation-delay: 1s;
+
+}
+
+@keyframes float {
+	0% {top: 200px; left: 400px;}
+	25% {top: 150px;}
+	50% {top: 100px; opacity: .5;}
+	75% {top: 50px; opacity: 0;}
+	100% {opacity: 0;}
+
+}
+
+
+.plant {
+	width: 70%;
+	position: absolute;
+	left: -40px;
+	top: -150px;
+}
+
+.coral {
+	width: 70%;
+	position: absolute;
+	left: -70px;
+	top: -150px;
+}
+
+.title:hover {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  	color: transparent;
+	text-shadow: 1px 1px transparent;
+	animation: rainbow 3s;	
+}
+
+@keyframes rainbow {
+    0%, 100% {letter-spacing: 0px;}
+  50% {left: 10px; letter-spacing: 18px;}
+
+
+
+
+
