@@ -1,0 +1,147 @@
+/*MAIN BODY*/
+body {
+	background-color: black;
+}
+
+.logo {
+	top: 40px;
+	left: 725px;
+	position: absolute;	
+}
+
+/*MENU*/
+
+.radar, .tempo, .discover, .about {
+	font-family: 'Krona One', sans-serif;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	text-decoration: none;
+	
+}
+
+.radar {
+	top: 670px;
+	left: 40px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+}
+  
+.tempo {
+	left: 40px;
+	top: 40px;
+}
+
+.discover {
+	right: 40px;
+	top: 40px;
+}
+
+.about {
+	right: 40px;
+	top: 670px;
+}
+
+
+/*MAIN PANEL*/
+.panel {
+	position: absolute;
+	left: 130px;
+	top: 120px;
+	width: 1180px;
+	height: 500px;
+  	background-image: linear-gradient(90deg, blue, red);	
+}
+
+.newbox, .featuredbox, .trendingbox, .editorbox, .allbox {
+	position: absolute;
+	width: 1180px;
+	height: 99px;
+	background-image: linear-gradient(90deg, blue, red);
+	border-bottom: solid white 1px;
+}
+
+
+.new, .featured, .trending, .editor, .all {
+	font-family: 'Krona One', sans-serif;
+	color: white;	
+	position: absolute;
+	padding-top: 15px;
+	font-size: 50px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+}
+
+/*BOXES*/
+.newbox {
+	top: 0px;
+	transition: 2s;
+}
+.featuredbox {
+	top: 100px;
+}
+.trendingbox {
+	top: 200px;
+}
+.editorbox {
+	top: 300px;
+}
+.allbox {
+	top: 400px;
+}
+
+/*TEXT*/
+.new {
+	left: 330px;
+}
+.featured {
+	left: 420px;
+}
+.trending {
+	left: 425px;
+}
+.editor {
+	left: 290px;
+}
+.all {
+	left: 413px;
+}
+
+.newbox: hover{
+	animation: moveup1 ;
+}
+.featuredbox: hover {
+	animation: moveup2;
+}
+.trendingbox: hover {
+	animation: moveup3;
+	
+}
+.editorbox: hover {
+	animation: moveup4;
+
+}
+.allbox: hover {
+	
+}
+
+
+/*ANIMATION*/
+@keyframes moveup1 {
+	0% { top: 0px;}
+	50% { top: -100px height: 200px;}
+	100% { top: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

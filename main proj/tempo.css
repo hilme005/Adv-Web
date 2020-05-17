@@ -1,0 +1,94 @@
+
+/*MAIN BODY*/
+body {
+	background-color: black;
+}
+
+.logo {
+	top: 40px;
+	left: 725px;
+	position: absolute;	
+}
+
+
+/*MENU*/
+
+.radar, .tempo, .discover, .about{
+	font-family: 'Krona One', sans-serif;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	text-decoration: none;
+	
+}
+
+.radar {
+	top: 670px;
+	left: 40px;
+	
+}
+  
+.tempo {
+	left: 40px;
+	top: 40px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+}
+
+.discover {
+	right: 40px;
+	top: 40px;
+}
+
+.about {
+	right: 40px;
+	top: 670px;
+}
+
+
+/*MAIN PANEL*/
+.panel {
+	position: absolute;
+	left: 130px;
+	top: 120px;
+	width: 1180px;
+	height: 500px;
+  	background-image: linear-gradient(90deg, blue, red);	
+}
+
+/*TYPEWRITER EFFECT STUFF*/
+.box {
+	width: 810px;
+	top: 200px;
+	position: absolute;
+	right: 200px;
+}
+
+.typewriter h1 {
+  	color: white;
+	font-size: 50px;
+	top: 50px;
+  	font-family: 'Krona One', sans-serif;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: .001px;
+  	overflow: hidden; 
+	border-right: .15em solid white;
+  	white-space: nowrap; 
+  	margin: 0 auto;
+  	letter-spacing: .15em;
+  	animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  	from { width: 0 }
+  	to { width: 100% }
+}
+
+/* CURSOR ANIMATION*/
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: white }
+}

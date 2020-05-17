@@ -1,0 +1,142 @@
+/*MAIN BODY*/
+body {
+	background-color: black;
+}
+
+.logo {
+	top: 40px;
+	left: 725px;
+	position: absolute;	
+}
+
+/*MENU*/
+
+.radar, .tempo, .discover, .about{
+	font-family: 'Krona One', sans-serif;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	text-decoration: none;
+	
+}
+
+.radar {
+	top: 670px;
+	left: 40px;
+}
+  
+.tempo {
+	left: 40px;
+	top: 40px;
+}
+
+.discover {
+	right: 40px;
+	top: 40px;
+}
+
+.about {
+	right: 40px;
+	top: 670px;
+}
+
+
+/*MAIN PANEL*/
+.panel {
+	position: absolute;
+	left: 130px;
+	top: 120px;
+	width: 1180px;
+	height: 500px;
+  	background-image: linear-gradient(90deg, #040053, #530000);
+}
+
+.kehlanibox, .uzibox, .gambinobox, .weekndbox, .aikobox, .sminobox {
+	position: absolute;
+	width: 1180px;
+	height: 63px;
+	background-image: linear-gradient(90deg, #040053, #530000);
+	border-bottom: solid black 3px;
+}
+
+
+.kehlani, .uzi, .gambino, .weeknd, .aiko, .smino {
+	font-family: 'Krona One', sans-serif;
+	color: white;	
+	position: absolute;
+	padding-top: 19px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-decoration: none;
+	left: 100px
+	
+}
+
+p { 
+	color: white;
+	font-family: 'Krona One', sans-serif;
+	position: absolute;
+	padding-top: 15px;
+	font-size: 15px;
+	letter-spacing: 1px
+
+}
+
+
+.all {
+	font-family: 'Krona One', sans-serif;
+	color: white;	
+	position: absolute;
+	padding-top: 15px;
+	font-size: 50px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	left: 415px;
+	top: 0px;
+}
+
+/*BOXES*/
+.allbox {
+	top: 0px;
+	transition: 2s;
+	position: absolute;
+	width: 1180px;
+	height: 97px;
+	background-image: linear-gradient(90deg, blue, red);
+	border-bottom: solid black 3px;
+}
+
+.kehlanibox {
+	top: 102px;
+}
+.weekndbox {
+	top: 168px;
+}
+.sminobox {
+	top: 234px;
+}
+.uzibox {
+	top: 300px;
+}
+.gambinobox {
+	top: 366px;
+}
+.aikobox {
+	top: 432px;
+}
+
+/*TEXT*/
+.p1, .p2, .p3, .p4, .p5, .p6 {
+	top: -10px;
+	left: 1080px;
+	position: absolute;
+}
+
+.p01, .p02, .p03, .p04, .p05, .p06 {
+	top: -10px;
+	left: 10px;
+	position: absolute;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: .5px;
+}

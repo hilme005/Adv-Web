@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Roboto';
+    src: 
+}
+
+/*MAIN BODY*/
+body {
+	background-color: black;
+}
+
+.logo {
+	top: 40px;
+	left: 725px;
+	position: absolute;	
+}
+
+/*MENU*/
+
+.radar, .tempo, .discover, .about{
+	font-family: 'Krona One', sans-serif;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	text-decoration: none;
+	
+}
+
+.radar {
+	top: 670px;
+	left: 40px;
+}
+  
+.tempo {
+	left: 40px;
+	top: 40px;
+}
+
+.discover {
+	right: 40px;
+	top: 40px;
+}
+
+.about {
+	right: 40px;
+	top: 670px;
+}
+
+
+/*MAIN PANEL*/
+.panel {
+	position: absolute;
+	left: 130px;
+	top: 120px;
+	width: 1180px;
+	height: 500px;
+  	background-image: linear-gradient(90deg, #040053, #530000); 
+	
+}
+
+h1 {
+	font-family: 'Krona One', sans-serif;
+	color: white;
+	left: 45px;
+	top: 0px;
+	position: absolute;
+	font-size: 40px;
+/*
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: .001px;
+*/
+	
+}
+
+p {
+	color: white;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px
+	font-size: 20px;
+}
+
+.p1 {
+	top: 130px;
+	margin-left: 50px;
+	margin-right: 650px;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+.p2 {
+	top: 190px;
+	margin-left: 50px;
+	margin-right: 650px;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+.p3 {
+	top: 400px;
+	margin-left: 50px;
+	margin-right: 650px;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+
+.picks {
+	top: 0px;
+	font-family: 'Krona One', sans-serif;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	font-size: 30px;
+	left: 630px
+}
+
+.similar {
+	top: 380px;
+	font-family: 'Krona One', sans-serif;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: .5px;
+	font-size: 15px;
+	left: 630px
+}
+
+.artists {
+	top: 410px;
+	font-family: 'Krona One', sans-serif;
+	font-size: 15px;
+	left: 630px
+	
+}
+
+.mine {
+	top: 90px;
+	left: 700px;
+	position: absolute;
+}
+
+.spot {
+	top: 190px;
+	left: 700px;
+	position: absolute;
+}
+
+.other {
+	top: 290px;
+	left: 700px;
+	position: absolute;
+}
+
+
+
+
